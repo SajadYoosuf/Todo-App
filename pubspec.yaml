@@ -1,0 +1,55 @@
+name: my_second_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  calendar_slider: ^0.0.4
+  syncfusion_flutter_calendar: ^27.1.58
+  horizontal_date_picker_flutter: ^0.0.1
+  readmore: ^3.0.0
+  flutter_date_pickers: ^0.4.3
+  date_picker_plus: ^4.1.0
+  fl_chart: ^0.69.0
+calendar_slider: version
+simple_horizontal_calendar:
+    git:
+      url: https://github.com/pratikbaid3/flutter_horizontal_calendar
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+
+
+  assets:
+      
+       - assets/images/images-removebg-preview.png
+       - assets/images/remove image.png
+       - assets/images/location.png
+       - assets/images/send.png
+       - assets/images/ui design.png
+       - assets/images/web development.jpg
+       - assets/images/office meeting.jpg
+       - assets/images/dashboard.jpg
+       - assets/images/design presentaion.jpg
+       - assets/images/meeting and collabration.avif
+       - assets/images/group research.jpg
+       - assets/images/jithin sir.jpg
+       - assets/images/nihad teacher and me.jpg 
+       - assets/images/asif sir .jpg 
+       -  assets/images/nishan kunjumon.jpg
+       - assets/images/sheher.jpg
+       - assets/images/yoosuf.jpg
+       - assets/images/faria.jpg
+       - assets/images/keyword research.png
+       - assets/images/email campaign.jpg
