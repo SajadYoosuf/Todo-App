@@ -22,9 +22,9 @@ class _TaskCreation extends State<TaskCreation> {
   void _taskDataAdding() {
     setState(() {
       taskData.add(Taskdata(
-          taskName: _taskName,
-          dateTime: dateTime,
-          timeofStart: timeofStart,
+          taskName: _taskName.text,
+          dateTime: dateTime.text,
+          timeofStart: _taskStartTime.text,
           timeofEnd: timeofEnd,
           discription: discription,
           image: image));
